@@ -58,4 +58,12 @@ public class Pessoa {
                             " você poderá fazer um financiamento imobiliário de R$ " + valorParc +
                             " com o seu salário R$ " + this.salario);
     }
+
+    public String getNome() {
+        return this.nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 }

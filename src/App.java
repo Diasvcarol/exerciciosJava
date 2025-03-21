@@ -7,6 +7,9 @@ public class App {
                                     "araujocarolina@edu.unisinos.br",
                                     1550.00);
         
+        pessoa.setNome("Lucka Viola de Castro");
+        System.out.println(pessoa.getNome());
+
         //Calcular o valor da parcela possível de acordo com o salário.
         double retornoCalcParcela = pessoa.ValorParcelaVeiculo(1550.00);
         //Imprimir dados.
